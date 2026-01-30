@@ -1,0 +1,16 @@
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Derlenmiş Dosyalar (Compiled Output) ---
+# Görseldeki "out" klasörü buraya denk gelir
+out/
+target/
+build/
+*.class
+
+# --- İşletim Sistemi Dosyaları ---
+.DS_Store
+Thumbs.db
