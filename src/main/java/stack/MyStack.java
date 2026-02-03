@@ -1,4 +1,4 @@
-package week1.stack;
+package stack;
 import java.util.Arrays;
 
 public class MyStack {

@@ -1,4 +1,4 @@
-package week1.stack.solutions;
+package interview.solutions.stack;
 
 import java.util.Scanner;
 import java.util.Stack;

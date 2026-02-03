@@ -1,4 +1,4 @@
-package week1.stack;
+package stack;
 import java.util.Stack;
 
 public class Main {
