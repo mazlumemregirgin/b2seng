@@ -28,15 +28,6 @@ public class Main {
         Cevap: Hesaplama maliyeti -> interpolationda çok fazla işlem var
         Güvenilmezlik -> veri dağılımı uniformly distributed değilse algoritma O(n)'e düşer. binary search ise her zaman
         O(logn) garantisi verir.
-
-
-
-
-
-
-
-
-
          */
     }
 }
