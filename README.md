@@ -1,64 +1,40 @@
 # Back to Engineering: Java
-The main purpose of this repository is to maintain and enhance my knowledge base and coding skills for interviews, and to continuously develop my engineering fundamentals.
+
+The main purpose of this repository is to maintain and enhance my knowledge base and coding skills, and to continuously develop my engineering fundamentals.
 
 This repository is the center of my **"Back to Engineering"** journey, created to strengthen my fundamental skills as a software engineer, reduce LLM dependency, and regain mastery of core engineering concepts (Java, Data Structures, Algorithms, Object-Oriented Programming, Design Patterns).
 
-I develop myself by keeping this repository up-to-date almost every day with a new topic, interview question, or LeetCode solution.
+I develop myself by keeping this repository up-to-date almost every day with a new topic or LeetCode solution.
 
-##  Project Structure (Current Structure)
+## Project Structure
 
-The repository is organized to cover not only code writing but also theoretical knowledge, code review, and interview preparation:
+The repository is organized cleanly by logical components:
 
-## 📂 Repository Structure
-
-```
-java/
-├── interview/
-│   ├── answers/          # Theory, trace, and code review answers
-│   │   ├── stack/
-│   │   └── queue/
-│   ├── questions/        # Interview questions and problem statements
-│   │   ├── stack/
-│   │   └── queue/
-│   └── solutions/        # Practical coding solutions
-│       ├── stack/
-│       └── queue/
-├── stack/                # Stack implementations and examples
-├── queue/                # Queue implementations and examples
-└── README.md
+```text
+src/main/java/
+├── algorithms/
+│   ├── search/           # Linear Search, Binary Search, Interpolation Search
+│   └── sort/             # Bubble, Selection, Insertion, Merge, Quick Sort
+├── datastructures/
+│   ├── graph/            # Graphs, Adjacency representations
+│   ├── hashtable/        # Hash Tables
+│   ├── list/             # Array Lists and Linked Lists
+│   ├── queue/            # Queues and Priority Queues
+│   └── stack/            # Stacks
+└── fundamentals/
+    ├── bigonotation/     # Big O Notation examples
+    └── recursion/        # Recursion examples
 ```
 
-##  Learning and Development Roadmap
+## Learning and Development Roadmap
 
 My studies are progressing in the following order:
 
-### Phase 1: Data Structures & Algorithms (DS & A) 🧠
-- Stacks 📚
-- Queues 🎟️
-- Priority Queues 🥇
-- Linked Lists 🔗
-- Dynamic Arrays 🌱
-- LinkedLists vs ArrayLists 🤼‍♂️
-- Big O Notation 📈
-- Linear Search ⬇️
-- Binary Search 🪓
-- Interpolation Search ❓
-- Bubble Sort 🤿
-- Selection Sort 🔦
-- Insertion Sort 🧩
-- Recursion 😵
-- Merge Sort 🔪
-- Quick Sort ⚡
-- Hash Tables #️⃣
-- Graphs Intro 🌐
-- Adjacency Matrix ⬜
-- Adjacency List 📑
-- Depth First Search ⬇️
-- Breadth First Search ↔️
-- Tree Data Structure Intro 🌳
-- Binary Search Tree 🔍
-- Tree Traversal 🧗
-- Calculate Execution Time ⏱️
+### Phase 1: Data Structures & Algorithms (DS & A)
+Core concepts and fundamental building blocks of computer science.
+- **Fundamentals:** Big O Notation, Recursion, Execution Time Calculation
+- **Data Structures:** Arrays, Linked Lists, Stacks, Queues, Hash Tables, Trees, Graphs
+- **Algorithms:** Sorting (Bubble, Selection, Insertion, Merge, Quick) and Searching (Linear, Binary, Interpolation, DFS, BFS)
 
 ### Phase 2: Object-Oriented Programming (OOP)
 Foundations of OOP principles with Java — coming after DSA fundamentals.
@@ -66,27 +42,12 @@ Foundations of OOP principles with Java — coming after DSA fundamentals.
 - SOLID Principles
 
 ### Phase 3: Design Patterns
-Real-world software design patterns implementation — final phase.
+Real-world software design patterns implementation.
 - Creational, Structural, and Behavioral Patterns study
 
----
+### Phase 4: Spring Boot Deep Dive
+- Komple Spring Boot derinlemesine incelenecek ve çalışılacak. (Deep dive into the complete Spring Boot framework and study it extensively.)
 
-## 📖 Interview Preparation
-
-The `interview/` directory contains structured materials for technical interview preparation:
-
-- **`questions/`** — Problem statements and theoretical questions organized by topic
-- **`solutions/`** — Practical coding solutions with test cases
-- **`answers/`** — Written explanations for theory, code traces, and code reviews
-
-Each topic includes:
-- ✍️ Theoretical questions
-- 🔍 Code trace exercises
-- 💻 Practical coding problems
-- 🧐 Code review challenges
-
-
-## 🛠️ Daily Routine
+## Daily Routine
 - **New Code Every Day:** Implementation of at least one data structure or algorithm on the determined topics.
 - **LeetCode:** Solving at least one Medium or Hard level algorithm problem with Java every day.
-- **Interview Preparation:** Answering theoretical questions related to the topic and documenting them under `interview/answers`.
