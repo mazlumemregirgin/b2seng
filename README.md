@@ -21,9 +21,12 @@ src/main/java/
 │   ├── list/             # Array Lists and Linked Lists
 │   ├── queue/            # Queues and Priority Queues
 │   └── stack/            # Stacks
-└── fundamentals/
-    ├── bigonotation/     # Big O Notation examples
-    └── recursion/        # Recursion examples
+├── fundamentals/
+│   ├── bigonotation/     # Big O Notation examples
+│   └── recursion/        # Recursion examples
+└── leetcode/
+    ├── two_sum/          # #1 - Two Sum (HashMap, O(n))
+    └── buy_sell_stock/   # #121 - Best Time to Buy and Sell Stock (Greedy, O(n))
 ```
 
 ## Learning and Development Roadmap
@@ -47,6 +50,19 @@ Real-world software design patterns implementation.
 
 ### Phase 4: Spring Boot Deep Dive
 - Komple Spring Boot derinlemesine incelenecek ve çalışılacak. (Deep dive into the complete Spring Boot framework and study it extensively.)
+
+---
+
+## LeetCode Progress
+
+Each problem includes a `Solution.java` with commented approaches, a `Main.java` with test cases, and a `README.md` documenting the full problem-solving journey — including wrong attempts, the reasoning behind each mistake, and the final correct approach.
+
+| # | Problem | Difficulty | Approach | Time | Space |
+|---|---------|------------|----------|------|-------|
+| 1 | [Two Sum](src/main/java/leetcode/two_sum/) | 🟢 Easy | HashMap | O(n) | O(n) |
+| 121 | [Best Time to Buy and Sell Stock](src/main/java/leetcode/buy_sell_stock/) | 🟢 Easy | Greedy | O(n) | O(1) |
+
+---
 
 ## Daily Routine
 - **New Code Every Day:** Implementation of at least one data structure or algorithm on the determined topics.
